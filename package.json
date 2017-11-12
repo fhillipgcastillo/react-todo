@@ -1,0 +1,48 @@
+{
+  "name": "todoproject",
+  "version": "1.0.0",
+  "description": "To Do Projects Prioritizer to sort the project, categorize and prioritize them\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gers0n/react-todo.git"
+  },
+  "keywords": [
+    "todo",
+    "list",
+    "project",
+    "prioritizer",
+    "organizer",
+    "sort"
+  ],
+  "author": "Ing. Fhillip Castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gers0n/react-todo/issues"
+  },
+  "homepage": "https://github.com/gers0n/react-todo#readme",
+  "dependencies": {
+    "axios": "^0.17.0",
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "json-loader": "^0.5.7",
+    "mongodb": "^2.2.33",
+    "node-sass-middleware": "^0.11.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.12.1",
+    "webpack": "^3.8.1"
+  }
+}
