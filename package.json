@@ -4,7 +4,10 @@
   "description": "To Do Projects Prioritizer to sort the project, categorize and prioritize them\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create": "webpack -wd",
+    "start": "nodemon --exec webpack-dev-server --open",
+    "build": "NODE_ENV='production' webpack -p"
   },
   "repository": {
     "type": "git",
@@ -43,6 +46,7 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "nodemon": "^1.12.1",
-    "webpack": "^3.8.1"
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.4.5"
   }
 }
