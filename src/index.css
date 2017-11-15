@@ -1,0 +1,69 @@
+.navbar .nav {
+  text-decoration: none;
+  text-decoration-style: none;
+  display: inline-block;
+  padding: 10px;
+  /*border: 1px solid gray;*/
+  border-radius: 5px;
+  margin: auto 5px;
+  box-shadow: 3px 3px gray;
+  background-color: #c7c7d8c9;
+}
+
+.navbar .nav:hover {
+  cursor: pointer;
+  box-shadow: 2px 2px #dddddddd
+}
+
+.btn {
+  padding: 10px;
+  cursor: pointer;
+  float: left;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto 5px;
+  color: white;
+}
+
+.btn-default {
+  background-color: #4375cc;
+}
+.btn-circle {
+  border-radius: 50%;
+  background-color: red;
+}
+
+.btn-circle .btn-text {
+  padding: 7.5px;
+}
+
+.btn-add, .btn-categorize {
+  float: right;
+}
+.todo-list {
+  padding: 5px;
+}
+.todo-item {
+  text-decoration: none;
+  border: 1px solid #c7c7d8c9;
+  display: flex;
+}
+
+.todo-item .item-title {
+  flex: 4;
+}
+
+.todo-item .item-remove {
+  flex: 1;
+}
+
+.todo-item .item-categorize {
+  flex: 1
+}
+
+/*temp styling for dev*/
+.component {
+  border: 1px solid gray;
+  padding: 5px;
+}
+/*temp styling for dev ENDS */

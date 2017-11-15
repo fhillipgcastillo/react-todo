@@ -4,9 +4,9 @@
   "description": "To Do Projects Prioritizer to sort the project, categorize and prioritize them\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "create": "webpack -wd",
-    "start": "nodemon --exec webpack-dev-server --open",
+    "dev": "webpack -wd",
+    "start": "webpack-dev-server --open",
+    "startMon": "nodemon --exec webpack-dev-server",
     "build": "NODE_ENV='production' webpack -p"
   },
   "repository": {
