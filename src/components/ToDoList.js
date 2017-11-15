@@ -1,15 +1,12 @@
-import React, {
-  Component
-} from 'react';
+import React, { Component } from 'react';
+import Button from './Button';
+
 
 export default class ToDoList extends Component {
   render(){
     return (
       <div className="ToDoList component">
-
-        <div className="btn btn-circle btn-add">
-          <span className="btn-text" title="Add New"> + </span>
-        </div>
+        <Button text=" + " type="btn-circle" indentifier="btn-add" title="Add New"/>
 
         <div className="todo-form">
           <div className="input-group form-input-text todo-input-title">
@@ -22,13 +19,11 @@ export default class ToDoList extends Component {
           </div>
           <div className="input-group form-textarea withTitle todo-input-description">
             <span className="input-group-title">Description</span>
-            <textarea className="form-textarea">{""}</textarea>
+            <textarea className="form-textarea"></textarea>
           </div>
         </div>
 
-        <div className="btn btn-default btn-categorize">
-          <span className="btn-text" title="Add New"> Categorize </span>
-        </div>
+        <Button text="Categorize" indentifier="btn-categorize" title="Go to Categorize all Project"/>
 
         <div className="todo-list-container">
           <h3>To Do List of items</h3>
@@ -36,13 +31,13 @@ export default class ToDoList extends Component {
           <ul className="todo-list component">
             <li className="todo-item component">
               <span className="item-title">Something</span>
-              <span className="item-remove btn btn-default btn-red">Something</span>
-              <span className="item-categorize btn btn-default">Categorize</span>
+              <Button indentifier="item-remove btn-red" text="Remove" />
+              <Button indentifier="item-categorize btn-red" text="Categorize" />
             </li>
             <li className="todo-item component">
               <span className="item-title">Something</span>
-              <span className="item-remove btn btn-default btn-red">Something</span>
-              <span className="item-categorize btn btn-default">Categorize</span>
+              <Button indentifier="item-remove btn-red" text="Remove" />
+              <Button indentifier="item-categorize btn-red" text="Categorize" />
             </li>
           </ul>
         </div>
